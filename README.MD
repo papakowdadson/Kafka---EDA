@@ -19,3 +19,9 @@
   -e KAFKA_LISTENERS=PLAINTEXT://0.0.0.0:9092 \
   -e KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR=1 \
   confluentinc/cp-kafka`
+
+# Run Producer
+- node producer.js `dataToBeSent`
+
+# Run Consumer
+- node consumer.js
